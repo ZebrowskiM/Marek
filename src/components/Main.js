@@ -15,11 +15,13 @@ class Main extends React.Component {
     )
 
     return (
+      
       <div
         ref={this.props.setWrapperRef}
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        
 
 
         <article
@@ -125,6 +127,7 @@ class Main extends React.Component {
           {close}
         </article>
       </div>
+
     )
   }
 }
