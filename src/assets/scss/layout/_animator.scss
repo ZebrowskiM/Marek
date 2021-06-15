@@ -1,0 +1,58 @@
+.landing{
+    min-height: 85vh;
+    max-height: 90vh;
+    background-size: cover;
+    padding: 0rem 5rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+#upperRightHandName{
+    font-family: "Lobster",cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.bigText{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-size: 4rem;
+    font-family: "Lobster",cursive;
+}
+.intro{
+    background:Black;
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text{
+    color:#e0d9d6;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 3rem;
+}
+.slider{
+    background:white;
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+}
+.hide{
+    background: black;
+    overflow: hidden;
+}
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
