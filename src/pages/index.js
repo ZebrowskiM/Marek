@@ -93,6 +93,24 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
+        <div class = "intro">
+      <div class="intro-text">
+        <h1 class ="hide">
+          <span class="text">Classy Software</span>
+        </h1>
+        <h1 class ="hide">
+          <span class="text">Requires A</span>
+        </h1>
+        <h1 class ="hide">
+          <span class="text">Classy Engineer</span>
+        </h1>
+      </div>
+      </div> 
+      <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"></script>
+      <script src="Animatior.js"></script>
+
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
@@ -107,27 +125,6 @@ class IndexPage extends React.Component {
           </div>
           <div id="bg"></div>
         </div>
-        <div class = "intro">
-      <div class="intro-text">
-        <h1 class ="hide">
-          <span class="text">Classy Software</span>
-        </h1>
-        <h1 class ="hide">
-          <span class="text">Requires A</span>
-        </h1>
-        <h1 class ="hide">
-          <span class="text">Classy Engineer</span>
-        </h1>
-      </div>
-      </div>  
-    <div class="slider">
-      </div>
-      <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-      crossorigin="anonymous"
-    ></script>
-      <script src="Animatior.js"></script>
       </Layout>
     )
   }
