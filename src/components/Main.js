@@ -84,7 +84,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="https://getform.io/f/badfb599-a0c9-4c9f-81c8-8f1cfb729f9a">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -107,14 +107,6 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
             <li>
               <a
                 href="https://github.com/codebushi/gatsby-starter-dimension"
