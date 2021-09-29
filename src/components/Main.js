@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import resume from '../images/MarekZebrowskiResume.pdf'
 
 class Main extends React.Component {
   render() {
@@ -43,7 +44,9 @@ class Main extends React.Component {
              <a href = "https://github.com/ZebrowskiM/StockGenie" target = "_blank"> Click Here for the github</a>
           </p>
           <p>
-          
+            <h3> Resume </h3>
+            Feel free to contact me with offers or opportunities.
+            <a href={resume} download>Resume</a>{` `} 
           </p>
           {close}
         </article>
