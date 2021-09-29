@@ -31,24 +31,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Professional</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <h4>Current Projects</h4>
+            I am currently working on API that would do basic technical analysis on cryptocurrencies and stocks.
+             My longer term vision is to also extend this to options contracts and possibly futures. 
+             <a href = "https://github.com/ZebrowskiM/StockGenie" target = "_blank"> Click Here for the github</a>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          
           </p>
           {close}
         </article>
@@ -65,13 +59,10 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          Hi my name is Marek Zebrowski and I am based out of Florida. I have worked in tech start ups for just under 4 yrs now working with various industries.
+           I have recently taken a liking toward .Net, Crypto, Stocks, and Artificial Intelligence.
+           I enjoy new challenges and working with different teams so if you have a challenge and need a developer throw it my way.
+           If you see a project that I am working or have worked that you would like to contribute to or have questions feel free to contact me. 
           </p>
           {close}
         </article>
