@@ -36,7 +36,8 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <h4>Current Projects</h4>
+            <h3>Current Projects</h3>
+            <h5>StockGenie</h5>
             I am currently working on API that would do basic technical analysis on cryptocurrencies and stocks.
              My longer term vision is to also extend this to options contracts and possibly futures. 
              <a href = "https://github.com/ZebrowskiM/StockGenie" target = "_blank"> Click Here for the github</a>
