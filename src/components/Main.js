@@ -44,9 +44,10 @@ class Main extends React.Component {
              <a href = "https://github.com/ZebrowskiM/StockGenie" target = "_blank"> Click Here for the github</a>
           </p>
           <p>
-            <h3> Resume </h3>
-            Feel free to contact me with offers or opportunities.
-            <a href={resume} download>Resume</a>{` `} 
+            <h5> Resume </h5>
+            Feel free to contact me with offers or opportunities. 
+            <br>
+            <a href={resume} download> Click here for Resume</a>{` `} 
           </p>
           {close}
         </article>
