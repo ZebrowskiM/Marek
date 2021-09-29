@@ -46,7 +46,7 @@ class Main extends React.Component {
           <p>
             <h5> Resume </h5>
             Feel free to contact me with offers or opportunities. 
-            <br>
+            <br></br>
             <a href={resume} download> Click here for Resume</a>{` `} 
           </p>
           {close}
