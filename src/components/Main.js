@@ -77,7 +77,7 @@ class Main extends React.Component {
             </dl>
           </p>
           <p>
-            <h5> Resume </h5>
+            <h3> Resume </h3>
             Feel free to contact me with offers or opportunities. 
             <br></br>
             <a href={resume} download> Click here for Resume</a>{` `} 
@@ -101,6 +101,16 @@ class Main extends React.Component {
           If you see a project that I am working or have worked that you would like to contribute to or have questions feel free to contact me. 
           </p>
           <h3>Industries</h3>
+            <ui>
+              <li>Integrations</li>
+              <li>Workflow Automation</li>
+              <li>Accounting Automation</li>
+              <li>Insurance Services</li>
+              <li>Material handling</li>
+              <li>Document Management</li>
+              <li>Medical Devices</li>
+              <li>Warehouse Management and Control Systems </li>
+            </ui>
           <p>
           
           </p>
