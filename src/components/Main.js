@@ -44,6 +44,37 @@ class Main extends React.Component {
              <a href = "https://github.com/ZebrowskiM/StockGenie" target = "_blank"> Click Here for the github</a>
           </p>
           <p>
+            <h3>Contracting &amp; Consulting </h3>
+            <dl>
+              <dt>
+                Contracting
+              </dt>
+              <dd>
+              Whether you are looking to enhance your current development team to meet deadlines or
+                Are a small business looking for someone who can take their prospective tech 
+                endeavors from start to finish, I can meet your software needs.
+              </dd>
+              <dt>
+                Consulting 
+              </dt>
+              Whether you are looking for an architect or a project manager to navigate technical challenges
+               in the ever evolving landscape of technology, I am here to help.
+                With Experience guiding developers and Agile teams throughout the SDLC.
+            </dl>
+            <dt>
+              Pricing
+            </dt>
+            <dd>
+              This varies by complexity and project size. 
+              Base rates start at $40 per hour for hourly or $600 minimum for per project pricing.
+              Discount and payment plans may be available for local small businesses.
+            </dd>
+            <dt>Contact</dt>
+            <dd>
+              <a href = "mailto: Marek@zebrowski.dev">Email</a>
+            </dd>
+          </p>
+          <p>
             <h5> Resume </h5>
             Feel free to contact me with offers or opportunities. 
             <br></br>
@@ -61,24 +92,15 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <p>
-          <h3>About Me:</h3>
+          <h3>About Me</h3>
           Hi my name is Marek Zebrowski and I am based out of Florida. I have worked in tech start ups for just under 4 yrs now working with various industries.
           I have recently taken a liking toward .Net, Crypto, Stocks, and Artificial Intelligence.
           I enjoy new challenges and working with different teams so if you have a challenge and need a developer throw it my way.
           If you see a project that I am working or have worked that you would like to contribute to or have questions feel free to contact me. 
           </p>
-
+          <h3>Industries</h3>
           <p>
-          <h3>Technologies I use</h3>
-          <p>
-          <dl>
-            <dt>.Net Stack </dt>
-            <dd> C#, Visual Basic, SQL Server</dd>
-            
-      
-          </dl>
           
-          </p>
           </p>
           {close}
         </article>
