@@ -60,14 +60,23 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
           <p>
+          <h3>About Me:</h3>
           Hi my name is Marek Zebrowski and I am based out of Florida. I have worked in tech start ups for just under 4 yrs now working with various industries.
-           I have recently taken a liking toward .Net, Crypto, Stocks, and Artificial Intelligence.
-           I enjoy new challenges and working with different teams so if you have a challenge and need a developer throw it my way.
-           If you see a project that I am working or have worked that you would like to contribute to or have questions feel free to contact me. 
+          I have recently taken a liking toward .Net, Crypto, Stocks, and Artificial Intelligence.
+          I enjoy new challenges and working with different teams so if you have a challenge and need a developer throw it my way.
+          If you see a project that I am working or have worked that you would like to contribute to or have questions feel free to contact me. 
+          </p>
+
+          <p>
+          <h3>Technologies I use</h3>
+          <dl>
+            <dt>.Net Stack </dt>
+            <dd> C#, Visual Basic, SQL Server</dd>
+            
+      
+          </dl>
+          
           </p>
           {close}
         </article>
