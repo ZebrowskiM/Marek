@@ -70,6 +70,7 @@ class Main extends React.Component {
 
           <p>
           <h3>Technologies I use</h3>
+          <p>
           <dl>
             <dt>.Net Stack </dt>
             <dd> C#, Visual Basic, SQL Server</dd>
@@ -77,6 +78,7 @@ class Main extends React.Component {
       
           </dl>
           
+          </p>
           </p>
           {close}
         </article>
