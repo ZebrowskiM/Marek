@@ -57,10 +57,11 @@ class Main extends React.Component {
               <dt>
                 Consulting 
               </dt>
+              <dd>
               Whether you are looking for an architect or a project manager to navigate technical challenges
                in the ever evolving landscape of technology, I am here to help.
                 With Experience guiding developers and Agile teams throughout the SDLC.
-            </dl>
+            </dd>
             <dt>
               Pricing
             </dt>
@@ -73,6 +74,7 @@ class Main extends React.Component {
             <dd>
               <a href = "mailto: Marek@zebrowski.dev">Email</a>
             </dd>
+            </dl>
           </p>
           <p>
             <h5> Resume </h5>
