@@ -51,7 +51,7 @@ class Main extends React.Component {
               </dt>
               <dd>
               Whether you are looking to enhance your current development team to meet deadlines or
-                Are a small business looking for someone who can take their prospective tech 
+                are a small business looking for someone who can take their prospective tech 
                 endeavors from start to finish, I can meet your software needs.
               </dd>
               <dt>
@@ -61,14 +61,6 @@ class Main extends React.Component {
               Whether you are looking for an architect or a project manager to navigate technical challenges
                in the ever evolving landscape of technology, I am here to help.
                 With Experience guiding developers and Agile teams throughout the SDLC.
-            </dd>
-            <dt>
-              Pricing
-            </dt>
-            <dd>
-              This varies by complexity and project size. 
-              Base rates start at $40 per hour for hourly or $600 minimum for per project pricing.
-              Discount and payment plans may be available for local small businesses.
             </dd>
             <dt>Contact</dt>
             <dd>
